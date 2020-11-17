@@ -27,7 +27,7 @@ Most of the U.S. population growth occurs in major cities because jobs tend to e
 
 Inflation tends to increase the price of real assets such as housing. When looking at city size as a function of inflation larger cities have experienced higher inflation over the past 10 years.
 
-![Inflation Chart](../Images/inflation_chart.png)
+![Inflation Chart](Images/inflation_chart.png)
 
 ### Future State of the Housing Market
 
@@ -35,7 +35,7 @@ The past does not always predict the future, but let us assume that is does. For
 
 Using this forecasted growth combined with our historical analysis we created a housing market rating by msa. The rating takes a customized basket of weights to High Total Return (Price and Yield) 45% + High Population Growth 10% + Affordability 20% + Low Crim 15% + COVID Impact 10%. An investor would want to choose msa that rank highly as they are favorable markets across all metrics.
 
-![Image of HPA Map](../Images/investment_opportunites.png)
+![Image of HPA Map](Images/investment_opportunites.png)
 
 The most attractive investment opportunities appear to be the cities of Oklahoma, Seattle, Tampa, Austin, and Denver.
 
