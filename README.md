@@ -3,9 +3,6 @@
 
 Code developed by Carlos Tacchi, Nika Chan, Alex Hall, Matthew Musgrave, and Eli Holden
 
-Code developed by Carlos Tacchi, Nika Chan, Alex Hall, Matthew Musgrave, and Eli Holden
-
-
 ### Table of contents
 1. [Introduction](#Introduction)
 2. [Analysis of Real Estate Investment Opportunities](#Analysis)
@@ -27,56 +24,58 @@ Code developed by Carlos Tacchi, Nika Chan, Alex Hall, Matthew Musgrave, and Eli
     - a. [Fulfillment of project requirements](#requirement)
     - b. [Who did what](#who)
 
-https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents#:~:text=Press%20CTRL%20%2B%20SHIFT%20%2B%20P,Markdown%3A%20Create%20Table%20of%20Contents
 
-
-## 1.Introduction <a name="Introduction"></a>
+## 1. Introduction <a name="Introduction"></a>
 
 This project is an analysis of post pandemic real estate investment opportunities in the US. Covid-19 hit the US in February 2020 and several states had to mandate lockdowns which forced people to spend much more time in their homes than ever before. The headlines say that people are moving away from cities and rethinking their long term housing requirements. We thought it would be a great idea to substantiate those claims, and create a dashboard that would help people analyze investment opportunities in the property market. The anlaysis was done using python programming and visualization techniques learned in class.
 
-## 2.Analysis of Real Estate Investment Opportunities <a name="Analysis"></a>
+## 2. Analysis of Real Estate Investment Opportunities <a name="Analysis"></a>
 
 ### a.The Impact of COVID on Sale Prices <a name="Sale"></a>
 
-![Map house prices](Images/map_house_prices.png.png)
-
 We used data from Zillow to look at the impact of COVID-19 on house prices. The image above shows each US metropolitan statistical area (also referred to as "MSA" for the rest of this document) in Zillow's database of housing prices. The size of each bubble corresponds to the population of the city and the color represents the change in house prices since February 2020. This visualization shows that big cities have seen a decrease in house prices while smaller cities surrounding those big cities have seen an increase in prices in the same period of time. This suggests that people have been moving from big dense cities to smaller cities and this is reflected in the price changes between these two categories since the pandemic began.
+
+![Map house prices](Images/map_house_prices.png.png)
 
 
 ### b. The Impact of COVID on Rental Prices <a name="Rent"></a>
 
-(Put Rental Price map image here)
-
 Similar to the changes that we've seen in sale prices, COVID-19 has negatively impacted big city rental prices because of the changing living requirements. In non-pandemic times, big cities can offer attractive job opportunities alongside premium amenity properties, but with business closures and working from home policies, these are no longer the best options for renters. This has forced down the cost of renting in large cities while increasing the rental costs in suburban cities nearby. The current health crisis has also driven a higher price for housing as would be renters decide to buy a home instead of continuing to rent.
+
+(Put Rental Price map image here)
 
 
 ### c. Large Cities are Unaffordable <a name="Affordability"></a>
 
+We also looked at some factors that people would consider when deciding on buying or investing in real estate and one of the immediate factors that come to mind is affordability. This visualization shows each MSA's level of median income against its level of rent, while the color of the dot shows each city's density. We also included a simple regression line to show the positive relationship between income level and rent price and to give the viewer a better gauge of each city's standing against other cities. MSA's above the line are expensive while those below the line are affordable. We can see from here that big dense cities have higher levels of income, but also much higher levels of rent. 
+
 ![Affordability scatter plot](Images/affordability_scatter.png)
 
-We also looked at some factors that people would consider when deciding on buying or investing in real estate and one of the immediate factors that come to mind is affordability. This visualization shows each MSA's level of median income against its level of rent, while the color of the dot shows each city's density. We also included a simple regression line to show the positive relationship between income level and rent price and to give the viewer a better gauge of each city's standing against other cities. MSA's above the line are expensive while those below the line are affordable. We can see from here that big dense cities have higher levels of income, but also much higher levels of rent. 
+
+Another way to look at the same variables was to divide median income by rental expense to see the percentage of income each city was spending on rent. Based on this metric, those that live in larger cities like NYC, LA and Miami pay almost 40% of their gross wages on housing while the smallest cities pay less than half of that and cities that are on the regression line spend approximately 25% of their income in rent. People who work in these large cities may choose to live further away to reduce their cost of living, especially if work from home policies continue. 
 
 ![Affordability bar plot](Images/affordability_bar.png)
 
-Another way to look at the same variables was to divide median income by rental expense to see the percentage of income each city was spending on rent. Based on this metric, those that live in larger cities like NYC, LA and Miami pay almost 40% of their gross wages on housing while the smallest cities pay less than half of that and cities that are on the regression line spend approximately 25% of their income in rent. People who work in these large cities may choose to live further away to reduce their cost of living, especially if work from home policies continue. 
 
 For these two visuals, we used annualized personal income data for each state from the US Bureau of Economic Analysis for 2019 and annualized rental data from zillow for the same time period. While we are aware that this data does not reflect income changes that might have happened during the pandemic, it is the most recent data that is available and still reflects general price levels in each state. 
 
 
 ### d. Crime is not always in cities [This section is not yet done] <a name="Crime"></a>
 
+Certain factors help convince people to live in a specific area. One of those is how safe the area is. There is a reason why Maslow's Hierarchy of Needs has basic needs (safety, shelter) at the bottom of the pyramid. The data suggests that crime may not always be in cities.
+
 (Put CRIME visual here)
 
-Certain factors help convince people to live in a specific area. One of those is how safe the area is. There is a reason why Maslow's Hierarchy of Needs has basic needs (safety, shelter) at the bottom of the pyramid. The data suggests that crime may not always be in cities.
+
 
 ### e. Population Growth [This section is not yet done] <a name="Population"></a>
 
-(Put POPULATION GROWTH visual here)
-
 Most of the U.S. population growth occurs in major cities because jobs tend to encourage people to live in the area and have families which creates the virtuous cycle of more jobs, more people, and repeat. Immigration also helps the population growth, but that too is fueled by where the jobs are located.
 
+(Put POPULATION GROWTH visual here)
 
-### f. Capital Appreciation** <a name="Monte"></a>
+
+### f. Capital Appreciation <a name="Monte"></a>
 
 The past does not always predict the future, but let us assume that it does. In this part of the analysis, we used over 20 years of housing price growth data to simulate the annualized future growth of MSAs to calculate an expected return over the next 1,3 and 5 years.
  
@@ -88,14 +87,14 @@ From this visual, we can see that the average future house price return is appro
 Although the Monte Carlo is not as useful in extreme scenarios (like being in a pandemic), it still provides a good indication of what property returns can look like. Users of this analysis can compare these returns with the returns of the other assets in their portfolio. 
 
 
-### g. Inflation [not sure what else to say here?]**<a name="Inflation"></a>
+### g. Inflation [not sure what else to say here?] <a name="Inflation"></a>
 
 ![Inflation](Images/inflation_chart.png)
 
 Inflation tends to increase the price of real assets such such as housing. We also looked at city size as a function of inflation and found that larger cities experienced higher inflation over the past 10 years. 
 
 
-## 3.Opportunities in the Housing Market <a name="Opportunity"></a> 
+## 3. Opportunities in the Housing Market <a name="Opportunity"></a> 
 
 Using the forecasted growth above combined with our historical analysis, we created a housing market rating by MSA to see where the unique investment opportunities are in the current environment. We added customized weights to each factor that results in an "opportunity rank" for each MSA. 
 
@@ -107,14 +106,14 @@ Using the forecasted growth above combined with our historical analysis, we crea
 
 Based on this opportunity rank, the most attractive investment opportunities appear to be the cities of Oklahoma, Seattle, Tampa, Austin, and Denver. 
 
-## 4.Choose Your Own Adventure <a name="API"></a> 
+## 4. Choose Your Own Adventure <a name="API"></a> 
 
 After identifying the attractive cities above, we constructed a tool that provides the user the ability to search for available properties by putting in a zipcode from those cities. We made this possible by using RapidAPI/APIDojo.com which has sales data from realtor.com. The below image shows a sample output of the tool in our dashboard for available properties in postalcode 80226.
 
 ![API](Images/API_pull.png)
 
 
-## 5.How to use this Dashboard <a name="Dashboard"></a> 
+## 5. How to use this Dashboard <a name="Dashboard"></a> 
 
 Nika to do this section soon
 
@@ -124,14 +123,14 @@ This analysis and resulting dashboard tool can hopefully be of use to someone lo
 
 ## 7. All About Data <a name="Data"></a> 
 
-### 1.How we cleaned our Data<a name="Data_clean"></a>
+### 1. How we cleaned our Data<a name="Data_clean"></a>
 
 One of the challenges in this project was sourcing and cleaning the data. First we had to source data from credible sources which, for us, meant getting 10 different datasets from different sources. Then we had to clean the data, and slice and dice it in a way that would allow us to merge all the datasets together for analysis. To do this, we had the help of a python library called DataCompy that compares dataframes and we used pandas to clean the data and merge several dataframes together into 3 csv output files that can be used for analysis and visualizations. 
 
 ![Image of HPA Map](Images/cleanup.png)
 
 
-### 2.Data Sources<a name="Data_source"></a>
+### 2. Data Sources<a name="Data_source"></a>
 
 1. Zillow (https://www.zillow.com/research/data/)
 2. U.S. Census Bureau (www.census.gov)
@@ -144,7 +143,7 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 
 ## 7. Considerations for grading <a name="Grading"></a> 
 
-### 1.Fulfillment of Project Requirements <a name="requirement"></a> 
+### 1. Fulfillment of Project Requirements <a name="requirement"></a> 
 
 - Pandas were used in the reading, cleaning and analysis of data
 - The Jupter notebook called "x" in this repo shows the data exploration and cleanup process
