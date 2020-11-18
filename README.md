@@ -35,7 +35,8 @@ This project is an analysis of post pandemic real estate investment opportunitie
 
 We used data from Zillow to look at the impact of COVID-19 on house prices. The image above shows each US metropolitan statistical area (also referred to as "MSA" for the rest of this document) in Zillow's database of housing prices. The size of each bubble corresponds to the population of the city and the color represents the change in house prices since February 2020. This visualization shows that big cities have seen a decrease in house prices while smaller cities surrounding those big cities have seen an increase in prices in the same period of time. This suggests that people have been moving from big dense cities to smaller cities and this is reflected in the price changes between these two categories since the pandemic began.
 
-![Map house prices](Images/sale_screenshot.png.png)
+![Map house prices](Images/sale_screenshot.png)
+###### *Bubble size denotes population density (bigger bubble = higher density)*
 
 
 ### b. The Impact of COVID on Rental Prices <a name="Rent"></a>
@@ -65,7 +66,7 @@ For these two visuals, we used annualized personal income data for each state fr
 Another factor we took into consideration was crime. We looked at FBI's data on violent crime per state and analyzed its impact on rent and sale prices. The plot below shows the compound annual growth rate (CAGR) of sale prices per state since the great financial crisis (GFC) by color and the size of each dot represents shows incidents of murder (the larger the dot, the more murder there is in that city). This graph shows a negative relationship between sales price growth and murder rate which is not surprising but should be considered when buying property. It also suggests that crime may not always be in big dense cities. The smaller cities might prove more affordable based on the previous section, but that affordability comes with a cost -- it might not be as safe.
 
 ![Crime map](Images/crime_screenshot.png)
-
+*Size of Bubble is Murder Rate (Bigger Bubble = Higher Murder Rate)*
 
 
 ### e. Population Growth [This section is not yet done] <a name="Population"></a>
@@ -115,7 +116,7 @@ After identifying the attractive cities above, we constructed a tool that provid
 
 ## 5. How to use this Dashboard <a name="Dashboard"></a> 
 
-Nika to do this section soon
+Nika to do this section after dashboard is done
 
 ## 6. Conclusions and What can be improved <a name="Conclusion"></a> 
 
@@ -141,7 +142,7 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 7. Crime Data (https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/offenses-known-to-law-enforcement/violent-crime/violentcrimemain_final)
 
 
-## 7. Considerations for grading <a name="Grading"></a> 
+## 7. Considerations for Grading <a name="Grading"></a> 
 
 ### 1. Fulfillment of Project Requirements <a name="requirement"></a> 
 
@@ -149,7 +150,7 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 - The Jupter notebook called "x" in this repo shows the data exploration and cleanup process
 - The Jupyter notebook called "y" in this repo shows the final data analysis
 - The dashboard which can be accessed here "z" includes x number of interactive vizualizations
-- The presentation files can be found here: [Housing Analysis slides ](https://docs.google.com/presentation/d/1hVA1ZTLuhiggT-x8AU2ddJVpSGW6hM2D4eRnvfGn1hU/edit#slide=id.p)
+- The presentation files can be found here: [Housing Analysis Slides](https://github.com/Luminous171/Project_1/blob/main/Presentation/The_American_Dream.pdf)
 - The new python library we used is DataCompy which helped us compare the contents dataframes when cleaning and analyzing our data
 - The API that we used is Rapid API / APIDojo.com (Sales data from realtor.com)
 
