@@ -35,14 +35,14 @@ This project is an analysis of post pandemic real estate investment opportunitie
 
 We used data from Zillow to look at the impact of COVID-19 on house prices. The image above shows each US metropolitan statistical area (also referred to as "MSA" for the rest of this document) in Zillow's database of housing prices. The size of each bubble corresponds to the population of the city and the color represents the change in house prices since February 2020. This visualization shows that big cities have seen a decrease in house prices while smaller cities surrounding those big cities have seen an increase in prices in the same period of time. This suggests that people have been moving from big dense cities to smaller cities and this is reflected in the price changes between these two categories since the pandemic began.
 
-![Map house prices](Images/map_house_prices.png.png)
+![Map house prices](Images/sale_screenshot.png.png)
 
 
 ### b. The Impact of COVID on Rental Prices <a name="Rent"></a>
 
 Similar to the changes that we've seen in sale prices, COVID-19 has negatively impacted big city rental prices because of the changing living requirements. In non-pandemic times, big cities can offer attractive job opportunities alongside premium amenity properties, but with business closures and working from home policies, these are no longer the best options for renters. This has forced down the cost of renting in large cities while increasing the rental costs in suburban cities nearby. The current health crisis has also driven a higher price for housing as would be renters decide to buy a home instead of continuing to rent.
 
-(Put Rental Price map image here)
+![Rental prices](Images/rent_screenshot.png)
 
 
 ### c. Large Cities are Unaffordable <a name="Affordability"></a>
@@ -60,11 +60,11 @@ Another way to look at the same variables was to divide median income by rental 
 For these two visuals, we used annualized personal income data for each state from the US Bureau of Economic Analysis for 2019 and annualized rental data from zillow for the same time period. While we are aware that this data does not reflect income changes that might have happened during the pandemic, it is the most recent data that is available and still reflects general price levels in each state. 
 
 
-### d. Crime is not always in cities [This section is not yet done] <a name="Crime"></a>
+### d. Crime is not always in cities <a name="Crime"></a>
 
-Certain factors help convince people to live in a specific area. One of those is how safe the area is. There is a reason why Maslow's Hierarchy of Needs has basic needs (safety, shelter) at the bottom of the pyramid. The data suggests that crime may not always be in cities.
+Another factor we took into consideration was crime. We looked at FBI's data on violent crime per state and analyzed its impact on rent and sale prices. The plot below shows the compound annual growth rate (CAGR) of sale prices per state since the great financial crisis (GFC) by color and the size of each dot represents shows incidents of murder (the larger the dot, the more murder there is in that city). This graph shows a negative relationship between sales price growth and murder rate which is not surprising but should be considered when buying property. It also suggests that crime may not always be in big dense cities. The smaller cities might prove more affordable based on the previous section, but that affordability comes with a cost -- it might not be as safe.
 
-(Put CRIME visual here)
+![Crime map](Images/crime_screenshot.png)
 
 
 
@@ -79,7 +79,7 @@ Most of the U.S. population growth occurs in major cities because jobs tend to e
 
 The past does not always predict the future, but let us assume that it does. In this part of the analysis, we used over 20 years of housing price growth data to simulate the annualized future growth of MSAs to calculate an expected return over the next 1,3 and 5 years.
  
-![Monte Carlo](Images/monte_carlo.png)
+![Monte Carlo](Images/monte_carlo3.png)
 
 
 From this visual, we can see that the average future house price return is approximately 2 to 3.5%, which exceeds recent inflation by 1-2%. This boxplot also helped us notice outliers with returns well above 7% and upon further investigation, turned out to be smaller suburban MSAs that might have had fewer property sale transactions that skewed the forecast for small towns upwards. 
@@ -102,7 +102,7 @@ Using the forecasted growth above combined with our historical analysis, we crea
 *Opportunities = High Total Return (Price + Yield) 45% + High COVID Impact 10% + High Population Growth 10% + Affordability 20% + Low Crime 15%*
 
 
-![Image of HPA Map](Images/investment_opportunities.png)
+![Image of HPA Map](Images/rank_final.png)
 
 Based on this opportunity rank, the most attractive investment opportunities appear to be the cities of Oklahoma, Seattle, Tampa, Austin, and Denver. 
 
@@ -127,7 +127,7 @@ This analysis and resulting dashboard tool can hopefully be of use to someone lo
 
 One of the challenges in this project was sourcing and cleaning the data. First we had to source data from credible sources which, for us, meant getting 10 different datasets from different sources. Then we had to clean the data, and slice and dice it in a way that would allow us to merge all the datasets together for analysis. To do this, we had the help of a python library called DataCompy that compares dataframes and we used pandas to clean the data and merge several dataframes together into 3 csv output files that can be used for analysis and visualizations. 
 
-![Image of HPA Map](Images/cleanup.png)
+![Image of HPA Map](Images/data_cleanup.png)
 
 
 ### 2. Data Sources<a name="Data_source"></a>
