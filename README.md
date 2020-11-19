@@ -81,7 +81,7 @@ Another factor we took into consideration was crime. We looked at FBI's data on 
 
 Most of the U.S. population growth occurs in cities where the jobs are. Jobs tend encourage people to live in the area and have families which creates the virtuous cycle of more jobs and more people. We took this into consideration and looked at the 10 year population growth in each of the cities as an investment factor because a growing population offers better chances for the property to be rented out or to increase in value over time. The visual below shows the Top 50 states in terms of population growth.
 
-![Population](Images/Population50.png)
+![Population](Images/population50.png)
 
 
 ### f. Capital Appreciation <a name="Monte"></a>
