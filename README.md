@@ -173,11 +173,11 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 ### 1. Fulfillment of Project Requirements <a name="requirement"></a> 
 
 - Pandas were used in the reading, cleaning and analysis of data
-- The Jupter notebook for data exploration and cleanup process: [Data Cleaning](https://github.com/Luminous171/Project_1/blob/main/Python_Files/clean_data_bases_vF.ipynb)
-- The Jupyter notebook for the Monte Carlo Simulation:[Monte Carlo](https://github.com/Luminous171/Project_1/blob/main/Python_Files/MonteCarloSim.ipynb)
+- The Jupyter notebook for data exploration and cleanup process: [Data Cleaning](https://github.com/Luminous171/Project_1/blob/main/Python_Files/clean_data_bases_vF.ipynb)
+- The Jupyter notebook for the Monte Carlo Simulation: [Monte Carlo](https://github.com/Luminous171/Project_1/blob/main/Python_Files/MonteCarloSim.ipynb)
 - The Dashboard with interactive vizualizations: [Dashboard](https://github.com/Luminous171/Project_1/blob/main/Python_Files/visualization_vF.ipynb)
 - The Housing tool built using an API: [House search tool](https://github.com/Luminous171/Project_1/blob/main/Python_Files/housing_search_tool.ipynb)
-- The presentation files can be found here: [Housing Analysis Slides](https://github.com/Luminous171/Project_1/blob/main/Presentation/The_American_Dream.pdf)
+- The Presentation slides: [Housing Analysis Slides](https://github.com/Luminous171/Project_1/blob/main/Presentation/The_American_Dream.pdf)
 - The new python library we used is DataCompy which helped us compare the contents of dataframes when cleaning and analyzing our data
 
 
