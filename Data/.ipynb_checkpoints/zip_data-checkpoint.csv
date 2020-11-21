@@ -1,0 +1,342 @@
+City,State,Zip Codes
+Tampa,FL,33602
+Tampa,FL,33603
+Tampa,FL,33604
+Tampa,FL,33605
+Tampa,FL,33601
+Tampa,FL,33606
+Tampa,FL,33607
+Tampa,FL,33613
+Tampa,FL,33614
+Tampa,FL,33615
+Tampa,FL,33618
+Tampa,FL,33619
+Tampa,FL,33621
+Tampa,FL,33622
+Tampa,FL,33623
+Tampa,FL,33624
+Tampa,FL,33629
+Tampa,FL,33630
+Tampa,FL,33631
+Tampa,FL,33608
+Tampa,FL,33609
+Tampa,FL,33610
+Tampa,FL,33611
+Tampa,FL,33612
+Tampa,FL,33616
+Tampa,FL,33617
+Tampa,FL,33620
+Tampa,FL,33625
+Tampa,FL,33626
+Tampa,FL,33633
+Tampa,FL,33634
+Tampa,FL,33635
+Tampa,FL,33647
+Tampa,FL,33650
+Tampa,FL,33662
+Tampa,FL,33663
+Tampa,FL,33664
+Tampa,FL,33674
+Tampa,FL,33675
+Tampa,FL,33677
+Tampa,FL,33679
+Tampa,FL,33637
+Tampa,FL,33646
+Tampa,FL,33655
+Tampa,FL,33660
+Tampa,FL,33661
+Tampa,FL,33672
+Tampa,FL,33673
+Tampa,FL,33680
+Tampa,FL,33681
+Tampa,FL,33682
+Tampa,FL,33684
+Tampa,FL,33685
+Tampa,FL,33689
+Tampa,FL,33694
+Tampa,FL,33686
+Tampa,FL,33687
+Tampa,FL,33688
+Oklahoma City,OK,73101
+Oklahoma City,OK,73102
+Oklahoma City,OK,73103
+Oklahoma City,OK,73106
+Oklahoma City,OK,73107
+Oklahoma City,OK,73108
+Oklahoma City,OK,73104
+Oklahoma City,OK,73105
+Oklahoma City,OK,73109
+Oklahoma City,OK,73110
+Oklahoma City,OK,73113
+Oklahoma City,OK,73114
+Oklahoma City,OK,73116
+Oklahoma City,OK,73117
+Oklahoma City,OK,73118
+Oklahoma City,OK,73120
+Oklahoma City,OK,73121
+Oklahoma City,OK,73123
+Oklahoma City,OK,73124
+Oklahoma City,OK,73127
+Oklahoma City,OK,73128
+Oklahoma City,OK,73129
+Oklahoma City,OK,73111
+Oklahoma City,OK,73112
+Oklahoma City,OK,73115
+Oklahoma City,OK,73119
+Oklahoma City,OK,73122
+Oklahoma City,OK,73125
+Oklahoma City,OK,73126
+Oklahoma City,OK,73130
+Oklahoma City,OK,73134
+Oklahoma City,OK,73135
+Oklahoma City,OK,73140
+Oklahoma City,OK,73141
+Oklahoma City,OK,73131
+Oklahoma City,OK,73132
+Oklahoma City,OK,73136
+Oklahoma City,OK,73137
+Oklahoma City,OK,73139
+Oklahoma City,OK,73142
+Oklahoma City,OK,73143
+Oklahoma City,OK,73146
+Oklahoma City,OK,73147
+Oklahoma City,OK,73150
+Oklahoma City,OK,73151
+Oklahoma City,OK,73152
+Oklahoma City,OK,73155
+Oklahoma City,OK,73156
+Oklahoma City,OK,73160
+Oklahoma City,OK,73162
+Oklahoma City,OK,73163
+Oklahoma City,OK,73167
+Oklahoma City,OK,73169
+Oklahoma City,OK,73144
+Oklahoma City,OK,73145
+Oklahoma City,OK,73148
+Oklahoma City,OK,73149
+Oklahoma City,OK,73153
+Oklahoma City,OK,73154
+Oklahoma City,OK,73157
+Oklahoma City,OK,73159
+Oklahoma City,OK,73164
+Oklahoma City,OK,73165
+Oklahoma City,OK,73170
+Oklahoma City,OK,73172
+Oklahoma City,OK,73179
+Oklahoma City,OK,73184
+Oklahoma City,OK,73185
+Oklahoma City,OK,73189
+Oklahoma City,OK,73173
+Oklahoma City,OK,73178
+Oklahoma City,OK,73190
+Oklahoma City,OK,73194
+Oklahoma City,OK,73195
+Oklahoma City,OK,73196
+Seattle,WA,98101
+Seattle,WA,98102
+Seattle,WA,98104
+Seattle,WA,98105
+Seattle,WA,98108
+Seattle,WA,98109
+Seattle,WA,98112
+Seattle,WA,98113
+Seattle,WA,98114
+Seattle,WA,98117
+Seattle,WA,98103
+Seattle,WA,98106
+Seattle,WA,98107
+Seattle,WA,98111
+Seattle,WA,98115
+Seattle,WA,98116
+Seattle,WA,98118
+Seattle,WA,98119
+Seattle,WA,98121
+Seattle,WA,98125
+Seattle,WA,98126
+Seattle,WA,98132
+Seattle,WA,98133
+Seattle,WA,98138
+Seattle,WA,98139
+Seattle,WA,98141
+Seattle,WA,98122
+Seattle,WA,98124
+Seattle,WA,98127
+Seattle,WA,98129
+Seattle,WA,98131
+Seattle,WA,98134
+Seattle,WA,98136
+Seattle,WA,98144
+Seattle,WA,98145
+Seattle,WA,98148
+Seattle,WA,98155
+Seattle,WA,98160
+Seattle,WA,98161
+Seattle,WA,98164
+Seattle,WA,98165
+Seattle,WA,98168
+Seattle,WA,98170
+Seattle,WA,98146
+Seattle,WA,98154
+Seattle,WA,98158
+Seattle,WA,98166
+Seattle,WA,98174
+Seattle,WA,98175
+Seattle,WA,98178
+Seattle,WA,98190
+Seattle,WA,98191
+Seattle,WA,98177
+Seattle,WA,98181
+Seattle,WA,98185
+Seattle,WA,98188
+Seattle,WA,98189
+Seattle,WA,98194
+Seattle,WA,98195
+Seattle,WA,98199
+Seattle,WA,98198
+Austin,TX,73301
+Austin,TX,73344
+Austin,TX,78704
+Austin,TX,78705
+Austin,TX,78708
+Austin,TX,78713
+Austin,TX,78714
+Austin,TX,78715
+Austin,TX,78701
+Austin,TX,78702
+Austin,TX,78703
+Austin,TX,78709
+Austin,TX,78710
+Austin,TX,78711
+Austin,TX,78712
+Austin,TX,78716
+Austin,TX,78717
+Austin,TX,78718
+Austin,TX,78719
+Austin,TX,78720
+Austin,TX,78721
+Austin,TX,78722
+Austin,TX,78723
+Austin,TX,78728
+Austin,TX,78729
+Austin,TX,78730
+Austin,TX,78731
+Austin,TX,78734
+Austin,TX,78724
+Austin,TX,78725
+Austin,TX,78726
+Austin,TX,78727
+Austin,TX,78732
+Austin,TX,78733
+Austin,TX,78735
+Austin,TX,78736
+Austin,TX,78739
+Austin,TX,78741
+Austin,TX,78745
+Austin,TX,78746
+Austin,TX,78749
+Austin,TX,78750
+Austin,TX,78751
+Austin,TX,78752
+Austin,TX,78755
+Austin,TX,78756
+Austin,TX,78757
+Austin,TX,78758
+Austin,TX,78759
+Austin,TX,78737
+Austin,TX,78738
+Austin,TX,78742
+Austin,TX,78744
+Austin,TX,78747
+Austin,TX,78748
+Austin,TX,78753
+Austin,TX,78754
+Austin,TX,78760
+Austin,TX,78761
+Austin,TX,78762
+Austin,TX,78763
+Austin,TX,78769
+Austin,TX,78772
+Austin,TX,78773
+Austin,TX,78780
+Austin,TX,78781
+Austin,TX,78799
+Austin,TX,78764
+Austin,TX,78765
+Austin,TX,78766
+Austin,TX,78767
+Austin,TX,78768
+Austin,TX,78774
+Austin,TX,78778
+Austin,TX,78779
+Austin,TX,78783
+Austin,TX,78785
+Austin,TX,78789
+Denver,CO,80201
+Denver,CO,80202
+Denver,CO,80203
+Denver,CO,80204
+Denver,CO,80205
+Denver,CO,80210
+Denver,CO,80211
+Denver,CO,80212
+Denver,CO,80216
+Denver,CO,80217
+Denver,CO,80218
+Denver,CO,80222
+Denver,CO,80226
+Denver,CO,80227
+Denver,CO,80228
+Denver,CO,80206
+Denver,CO,80207
+Denver,CO,80208
+Denver,CO,80209
+Denver,CO,80214
+Denver,CO,80215
+Denver,CO,80219
+Denver,CO,80220
+Denver,CO,80221
+Denver,CO,80223
+Denver,CO,80224
+Denver,CO,80225
+Denver,CO,80229
+Denver,CO,80232
+Denver,CO,80233
+Denver,CO,80230
+Denver,CO,80231
+Denver,CO,80234
+Denver,CO,80236
+Denver,CO,80247
+Denver,CO,80248
+Denver,CO,80249
+Denver,CO,80256
+Denver,CO,80257
+Denver,CO,80259
+Denver,CO,80261
+Denver,CO,80262
+Denver,CO,80266
+Denver,CO,80271
+Denver,CO,80235
+Denver,CO,80237
+Denver,CO,80238
+Denver,CO,80239
+Denver,CO,80243
+Denver,CO,80244
+Denver,CO,80246
+Denver,CO,80250
+Denver,CO,80251
+Denver,CO,80252
+Denver,CO,80260
+Denver,CO,80263
+Denver,CO,80264
+Denver,CO,80265
+Denver,CO,80273
+Denver,CO,80274
+Denver,CO,80279
+Denver,CO,80280
+Denver,CO,80281
+Denver,CO,80290
+Denver,CO,80291
+Denver,CO,80293
+Denver,CO,80294
+Denver,CO,80295
+Denver,CO,80299
