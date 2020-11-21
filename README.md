@@ -43,7 +43,7 @@ We used data from Zillow to look at the impact of COVID-19 on home prices. The i
 
 ### b. The Impact of COVID on Rental Prices: Rental prices going down in the big cities, going down in small cities  <a name="Rent"></a>
 
-Similar to the changes that we've seen in sale prices, COVID-19 has negatively impacted big city rental prices because of the changing living requirements. In non-pandemic times, big cities can offer attractive job opportunities alongside premium amenity properties, but with business closures and working from home policies, these are no longer the best options for renters. This has forced down the cost of renting in large cities while increasing the rental costs in suburban cities nearby. 
+Similar to the changes that we've seen in sale prices, COVID-19 has negatively impacted big city rental prices because of the changing living requirements. In non-pandemic times, big cities can offer attractive job opportunities alongside premium amenity properties, but with business closures and working from home policies, these are no longer the best options for renters. This has forced down the cost of renting in large cities and increased the rental costs in suburban cities nearby. 
 
 ![Rental prices](Images/rent_screenshot.png)
 ###### *Bubble size denotes population density (bigger bubble = higher density)*
@@ -58,7 +58,7 @@ We also looked at some factors that people would consider when deciding on buyin
 ![Affordability scatter plot](Images/affordability_scatter.png)
 
 
-Another way to look at the same variables was to divide median income by rental expense to see the percentage of income each city was spending on rent. Based on this metric, those that live in larger cities like NYC, LA and Miami pay close to 40% of their gross wages on housing while the smallest cities pay less than half of that; cities that are on the regression line spend approximately 25% of their income in rent. People who work in these large cities may choose to live further away to reduce their cost of living, especially if work from home policies continue. 
+Another way to look at the same variables was to divide median income by rental expense to see the percentage of income each city was spending on rent. Based on this metric, those that live in larger cities like NYC, LA and Miami pay close to 40% of their gross wages on housing while the smallest cities pay less than half of that. Cities that are on the regression line spend approximately 25% of their income in rent. People who work in these large expensive cities may choose to live further away to reduce their cost of living, especially if work from home policies continue. 
 
 ![Affordability bar plot](Images/affordability_bar.png)
 
@@ -79,7 +79,7 @@ Another factor we took into consideration was crime. We looked at FBI's data on 
 
 ### e. Population Growth <a name="Population"></a>
 
-Most of the U.S. population growth occurs in cities where the jobs are. Jobs tend encourage people to live in the area and have families which creates the virtuous cycle of more jobs and more people. We took this into consideration and looked at the 10 year population growth in each of the cities as an investment factor because a growing population offers better chances for the property to be rented out or to increase in value over time. The visual below shows the Top 50 states in terms of population growth.
+Most of the U.S. population growth occurs in cities where the jobs are. Jobs encourage people to live in the area and have families which creates the virtuous cycle of more jobs and more people. We took this into consideration and looked at the 10 year population growth in each of the cities as an investment factor because a growing population offers better chances for the property to be rented out or to increase in value over time. The visual below shows the Top 50 states in terms of population growth.
 
 ![Population](Images/population50.png)
 
@@ -100,7 +100,7 @@ Although the Monte Carlo is not as useful in extreme scenarios (like being in a 
 
 ![Inflation](Images/inflation_chart.png)
 
-Inflation tends to increase the price of real assets such such as housing. We also looked at city size as a function of inflation and found that bigger cities had 50% more inflation than smaller cities over the past 10 years. This measure can also be considered when adding real estate into an existing portfolio of assets as an inflation hedge. 
+Inflation tends to increase the price of real assets such such as housing. We also looked at city size as a function of inflation and found that bigger cities had ~50% more inflation than smaller cities over the past 10 years. This measure can also be considered when adding real estate into an existing portfolio of assets as an inflation hedge. 
 
 
 ## 3. Where is the Opportunity? <a name="Opportunity"></a> 
@@ -137,9 +137,9 @@ We created a dashboard that can be viewed here: [Dashboard](https://github.com/L
 
 This dashboard can be used by the viewer to do further analysis on any of the sections covered above. The graphs are interactive and hovering over each graph provides more datapoints on each MSA. 
 
- Below are the 6 tabs in the dashboard amd what they can be used for:
--Impact on Rental Prices: Rental price data before and after COVID
--Impact on Home Prices: Sales price data before and after COVID
+ Below are the 6 tabs in the dashboard and its description:
+-Impact on Rental Prices: Rental price data, including the period with COVID
+-Impact on Home Prices: Sales price data, including the period with COVID
 -Historical Trends: provides the sales and rental data in a time series format with dropdown for each MSA
 -Affordability: Comparing median income and rental prices across MSAs
 -Forecasts: Data on Monte Carlo forecasts and Opportunity rank visual
