@@ -133,7 +133,16 @@ For the instances noted above, if we had more time we could build in more robust
 
 ## 5. How to use this Dashboard <a name="Dashboard"></a> 
 
-Nika to do this section after dashboard is done
+We created a dashboard that can be viewed here: [Dashboard](https://github.com/Luminous171/Project_1/blob/main/Python_Files/visualization_vF.ipynb)
+
+This dashboard can be used by the viewer to do further analysis on any of the sections covered above. The graphs are interactive and hovering over each graph provides more datapoints on each MSA. 
+
+ Below are the 6 tabs in the dashboard amd what they can be used for:
+-Impact on Rental Prices: Rental price data before and after COVID
+-Impact on Home Prices: Sales price data before and after COVID
+-Historical Trends: provides the sales and rental data in a time series format with dropdown for each MSA
+-Affordability: Comparing median income and rental prices across MSAs
+-Forecasts: Data on Monte Carlo forecasts and Opportunity rank visual
 
 ## 6. Conclusions and What can be Improved <a name="Conclusion"></a> 
 
@@ -164,12 +173,12 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 ### 1. Fulfillment of Project Requirements <a name="requirement"></a> 
 
 - Pandas were used in the reading, cleaning and analysis of data
-- The Jupter notebook for data exploration and cleanup process: [Data Cleaning](https://github.com/Luminous171/Project_1/blob/main/Python_Files/clean_data_bases_v2020.13.10.ipynb)
-- The Jupyter notebook for the final data anlaysis:
-- The Dashboard with interactive vizualizations: [Dashboard](https://github.com/Luminous171/Project_1/blob/main/Python_Files/visualization_v10.ipynb)
+- The Jupter notebook for data exploration and cleanup process: [Data Cleaning](https://github.com/Luminous171/Project_1/blob/main/Python_Files/clean_data_bases_vF.ipynb)
+- The Jupyter notebook for the Monte Carlo Simulation:[Monte Carlo](hhttps://github.com/Luminous171/Project_1/blob/main/Python_Files/MonteCarloSim.ipynb)
+- The Dashboard with interactive vizualizations: [Dashboard](https://github.com/Luminous171/Project_1/blob/main/Python_Files/visualization_vF.ipynb)
+- The Housing tool built using an API: [House search tool](https://github.com/Luminous171/Project_1/blob/main/Python_Files/housing_search_tool.ipynb)
 - The presentation files can be found here: [Housing Analysis Slides](https://github.com/Luminous171/Project_1/blob/main/Presentation/The_American_Dream.pdf)
 - The new python library we used is DataCompy which helped us compare the contents of dataframes when cleaning and analyzing our data
-- The API that we used is Rapid API (Sales data from realtor.com)
 
 
 ### 2. Who did what <a name="who"></a> 
@@ -178,9 +187,9 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 
 **Carlos Tacchi**: Master combinator and even with a smile. Arduously gave his right brain to the task of getting our population data in the right format, stitching our final dataframe and csv, and putting all our individual code in a dashboard.
 
-**Eli Holden**: Monte Eli to the rescue. Writing code for all occasions. Crafting datasets and running the simulation that ties all the data together into a final equation of prediction. 
+**Eli Holden**: Monte Eli to the rescue. Writing code for all occasions. Crafting datasets and running the simulation that ties all the data together into a final equation of prediction. Also the venerable leader of the group.
 
-**Matthew Musgrave**: Resident API guru -- all things JSON. You want it, he's got it. Also the only reason we finished our presentation on time. 
+**Matthew Musgrave**: Resident API guru -- all things JSON. You want it, he's got it. Responsible for getting data from the API and building the housing search tool.  Also the only reason we finished our presentation on time. 
 
 **Nika Chan**: The utilitarian of the group. She can do it all. Pull it, clean it, map it. It's not just the newest bop-it game, but a priestess warrior of coding. Taking our affordability data and readme to the next level and keeping us all on track. 
 
