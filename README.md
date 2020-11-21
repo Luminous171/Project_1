@@ -96,11 +96,11 @@ From this visual, we can see that the average future house price return is appro
 Although the Monte Carlo is not as useful in extreme scenarios (like being in a pandemic), it still provides a good indication of what property returns can look like. Users of this analysis can compare these returns with the returns of the other assets in their portfolio. 
 
 
-### g. Inflation [not sure what else to say here? This is also not in the oppportunity formula, might remove this] <a name="Inflation"></a>
+### g. Inflation <a name="Inflation"></a>
 
 ![Inflation](Images/inflation_chart.png)
 
-Inflation tends to increase the price of real assets such such as housing. We also looked at city size as a function of inflation and found that larger cities experienced higher inflation over the past 10 years. 
+Inflation tends to increase the price of real assets such such as housing. We also looked at city size as a function of inflation and found that bigger cities had 50% more inflation than smaller cities over the past 10 years. This measure can also be considered when adding real estate into an existing portfolio of assets as an inflation hedge. 
 
 
 ## 3. Where is the Opportunity? <a name="Opportunity"></a> 
@@ -155,8 +155,8 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 ### 1. Fulfillment of Project Requirements <a name="requirement"></a> 
 
 - Pandas were used in the reading, cleaning and analysis of data
-- The Jupter notebook called "x" in this repo shows the data exploration and cleanup process
-- The Jupyter notebook called "y" in this repo shows the final data analysis
+- The Jupter notebook for data exploration and cleanup process: [Data Cleaning](https://github.com/Luminous171/Project_1/blob/main/Python_Files/clean_data_bases_v2020.13.10.ipynb)
+- The Jupyter notebook for the final data anlaysis:
 - The dashboard which can be accessed here "z" includes x number of interactive vizualizations
 - The presentation files can be found here: [Housing Analysis Slides](https://github.com/Luminous171/Project_1/blob/main/Presentation/The_American_Dream.pdf)
 - The new python library we used is DataCompy which helped us compare the contents of dataframes when cleaning and analyzing our data
