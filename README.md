@@ -138,11 +138,12 @@ We created a dashboard that can be viewed here: [Dashboard](https://github.com/L
 This dashboard can be used by the viewer to do further analysis on any of the sections covered above. The graphs are interactive and hovering over each graph provides more datapoints on each MSA. 
 
  Below are the 6 tabs in the dashboard and its description:
--Impact on Rental Prices: Rental price data, including the period with COVID
--Impact on Home Prices: Sales price data, including the period with COVID
--Historical Trends: provides the sales and rental data in a time series format with dropdown for each MSA
--Affordability: Comparing median income and rental prices across MSAs
--Forecasts: Data on Monte Carlo forecasts and Opportunity rank visual
+
+- Impact on Rental Prices: Rental price data, including the period with COVID
+- Impact on Home Prices: Sales price data, including the period with COVID
+- Historical Trends: Provides the sales and rental data in a time series format with dropdown for each MSA
+- Affordability: Comparing median income and rental prices across MSAs
+- Forecasts: Data on Monte Carlo forecasts and Opportunity rank visual
 
 ## 6. Conclusions and What can be Improved <a name="Conclusion"></a> 
 
