@@ -77,7 +77,7 @@ Another factor we took into consideration was crime. We looked at FBI's data on 
 
 
 
-### e. Population Growth [This section is not yet done] <a name="Population"></a>
+### e. Population Growth <a name="Population"></a>
 
 Most of the U.S. population growth occurs in cities where the jobs are. Jobs tend encourage people to live in the area and have families which creates the virtuous cycle of more jobs and more people. We took this into consideration and looked at the 10 year population growth in each of the cities as an investment factor because a growing population offers better chances for the property to be rented out or to increase in value over time. The visual below shows the Top 50 states in terms of population growth.
 
@@ -166,7 +166,7 @@ One of the challenges in this project was sourcing and cleaning the data. First 
 - Pandas were used in the reading, cleaning and analysis of data
 - The Jupter notebook for data exploration and cleanup process: [Data Cleaning](https://github.com/Luminous171/Project_1/blob/main/Python_Files/clean_data_bases_v2020.13.10.ipynb)
 - The Jupyter notebook for the final data anlaysis:
-- The dashboard which can be accessed here "z" includes x number of interactive vizualizations
+- The Dashboard with interactive vizualizations: [Dashboard](https://github.com/Luminous171/Project_1/blob/main/Python_Files/visualization_v10.ipynb)
 - The presentation files can be found here: [Housing Analysis Slides](https://github.com/Luminous171/Project_1/blob/main/Presentation/The_American_Dream.pdf)
 - The new python library we used is DataCompy which helped us compare the contents of dataframes when cleaning and analyzing our data
 - The API that we used is Rapid API (Sales data from realtor.com)
