@@ -123,13 +123,13 @@ After identifying the attractive cities above, we constructed a tool that provid
 
 A few limitations to note for the API tool are the following:
 
-    - We incorporated the zip codes that were associated with the top 5 investment opportunity cities into a CSV file. After running the tool there are certain zip codes that do not have any property data to show so an error will occur when attempting to run the API data retrieval code at the bottom of the workbook. That being said, simply re-run the combobox code and select another zip code.
+We incorporated the zip codes that were associated with the top 5 investment opportunity cities into a CSV file. After running the tool there are certain zip codes that do not have any property data to show so an error will occur when attempting to run the API data retrieval code at the bottom of the workbook. That being said, simply re-run the combobox code and select another zip code.
 
-    - Similar to the limitation above, we have built the API retrieval code to pull data for 5 different properties that are returned from the API pull. Certain zip codes may have less than 5 properties available which will cause an error when attempting to run the API data retrieval code at the bottom of the workbook. That being said, simply re-run the combobox code and select another zip code.
+Similar to the limitation above, we have built the API retrieval code to pull data for 5 different properties that are returned from the API pull. Certain zip codes may have less than 5 properties available which will cause an error when attempting to run the API data retrieval code at the bottom of the workbook. That being said, simply re-run the combobox code and select another zip code.
 
-    - The data from the API is not perfect and depending on what is available on Realtor.com (source) there may be some fields that are displayed as Null. That being said, for the most part, the most important data pieces are included.
+The data from the API is not perfect and depending on what is available on Realtor.com (source) there may be some fields that are displayed as Null. That being said, for the most part, the most important data pieces are included.
 
-For both the instances above, if we had more time we could build in more robust parameters to allow for our code to consume any and all potential scenarios with the API pull. Perhaps that is something we can continue to work on in order to strengthen the tools usefulness.
+For the instances noted above, if we had more time we could build in more robust parameters to allow for our code to consume any and all potential scenarios with the API pull. Perhaps that is something we can continue to work on in order to strengthen the tools usefulness.
 
 ## 5. How to use this Dashboard <a name="Dashboard"></a> 
 
