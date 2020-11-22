@@ -3,7 +3,7 @@
 
 Code developed by Carlos Tacchi, Nika Chan, Alex Hall, Matthew Musgrave, and Eli Holden
 
-### Table of contents
+### Table of Contents
 1. [Introduction](#Introduction)
 2. [Analysis of Real Estate Investment Opportunities](#Analysis)
     - a. [COVID-19 and Sale Prices](#Sale)
